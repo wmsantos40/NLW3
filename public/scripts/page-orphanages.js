@@ -15,7 +15,7 @@ const popup = L.popup({
     className: 'map-popup',
     minWidth: 240,
     minHeight: 240
-}).setContent('Lar pequeno Leão <a href="orphans.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"></a>')
+}).setContent('Lar pequenos anjinhos <a href="orphans.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"></a>')
 
 
 L.marker([-23.6686047,-46.6175243], { icon })
