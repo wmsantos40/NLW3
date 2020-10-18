@@ -22,7 +22,7 @@ main {
 
 .orphanage-details > img {
     width: 100%;
-    height: 30rem;
+    height: 50rem;
     object-fit: cover;
 }
 
@@ -65,7 +65,7 @@ main {
 
 .orphanage-details-content h1 {
     color: #4D6F80;
-    font-size: 5.0rem;
+    font-size: 4.2rem;
     line-height: 1.5rem;
     margin-bottom: 0.8rem;
 }
@@ -99,6 +99,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
+
+    line-height: 1.5;
 }
 
 .open-details div {
@@ -119,13 +121,23 @@ main {
     color: #5C8599;
 }
 
-.open-details .open-on-weekends {
+.open-details .open-on-weekends {   
+    border-radius: 20px;     
+}
+
+.opening-on-weekends.open {
     background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
     border: 1px solid #A1E9C5;
-    border-radius: 20px;
-
-    color: #37C77F;
+    color: #37C77F; 
 }
+
+.opening-on-weekends.closed {
+    background: linear-gradient(154.16deg, #FCF0F4.85%, #FFFFFF 91.03%);
+    border: 1px solid #FFBCD4;
+    color: #FF999D;
+}
+
+
 
 
 
